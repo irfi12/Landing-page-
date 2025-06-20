@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #777c90;
+  font-family: "Manrope", sans-serif;
+
+}
+.Nav-Bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-inline: 60px;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 40px;
+}
+.logo-section {
+  display: flex;
+  background-color: transparent;
+}
+.Nav-Bar > ul {
+  display: flex;
+  background-color: transparent;
+  list-style: none;
+}
+.Nav-Bar > ul > li {
+  margin: 20px;
+  background-color: white;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.Nav-Bar a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #282930;
+  margin: 10px;
+}
+.Logo_Name {
+  margin-left: 5px;
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: transparent;
+  cursor: pointer;
+}
+.signup-btn {
+  background-color: #142f32;
+  border-radius: 100px;
+  color: white;
+  margin-left: 300px;
+  cursor: pointer;
+  height: 15px 15px;
+  padding: 8px;
+}
+
+/**Hero section started */
+.Hero-section {
+  text-align: center;
+  color: #282930;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 40px 20px;
+  height: 50px 50px;
+  margin-left: 60px;
+  margin-right: 60px;   
+}
+.main-heading {
+  background-color: transparent;
+}
+.small-heading {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin: 5px;
+}
+.with {
+  background-color: transparent;
+}
+.line {
+  background-color: transparent;
+  margin: 30px;
+}
+
+.highlights {
+  color: #142f32;
+  margin-left: 3px;
+  background-color: transparent;
+}
+.center-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.get-started {
+  border-radius: 30px;
+  background-color: #142f32;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+.try-demo {
+  border-radius: 30px;
+  padding: 0.5rem;
+  color: #282930;
+  cursor: pointer;
+  background-color: white;
+}
+.rating {
+  margin-top: 20px;
+  background-color: transparent;
+}
+.cards {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  background-color: transparent;
+  margin-left: 100px;
+
+  padding: 25px;
+margin-right: 40px;
+  grid-area: 30px;
+}
+.reviews {
+  background-color: transparent;
+}
+.review-link {
+  background-color: transparent;
+}
+.image {
+  border-radius: 10px;
+  margin: 20px;
+  height: 40vh;
+  padding: 5px;
+}
+.card-data {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #142f32;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.word {
+  background-color: transparent;
+  padding: 5px;
+  margin: 10px;
+  line-height: 2px;
+  justify-items: center;
+}
+.card2 {
+  background-color: #c2b9b9;
+  margin: 20px;
+  padding: 15px;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+.menu-dot {
+  display: inline;
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.project-title{
+      display: flex;
+      justify-items: left;
+      margin-top: 3px;
+      margin-right: 40px;
+      background-color: transparent;
+}
+.Numbers{
+      background-color: transparent;
+      margin-top: 8px;
+      padding: 20px;
+}
+.Number2{
+      margin-right: 100px;
+      background-color: transparent;
+}
+.highlights2{
+      color: green;
+      background-color: transparent;
+}
+.month{
+      background-color: transparent;
+}
+.card3{
+      padding: 15px;
+      background-color: #E3FFCC ;
+      color: #282930;
+      border-radius: 10px;
+}
+.card4{
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+      margin-top: 19px;
+      background-color: #142f32;
+  
+}
+.emoji-clock{
+      padding: 10px;
+      display: flex;
+      margin-top: 100px;
+      background-color: transparent;
+      color: white;
+}
+.card4-content{
+     
+      color: white;
+      margin-top: 20px;
+      text-align: justify;
+      background-color: transparent;
+      color-scheme: rgb;
+
+}
+.body{
+      text-align: center;
+      margin-top: 30px;
+      background-color: #142f32;
+      width: 100%;
+      margin: 30px
+
+}
+
+
