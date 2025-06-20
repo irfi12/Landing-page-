@@ -65,6 +65,7 @@
   height: 50px 50px;
   margin-left: 60px;
   margin-right: 60px;   
+  background-color: #d4d6df;
 }
 .main-heading {
   background-color: transparent;
@@ -115,11 +116,9 @@
   display: flex;
   font-family: "Manrope", sans-serif;
   background-color: transparent;
-  margin-left: 100px;
-
-  padding: 25px;
-margin-right: 40px;
-  grid-area: 30px;
+  margin-left: 150px;
+ 
+ 
 }
 .reviews {
   background-color: transparent;
@@ -214,16 +213,80 @@ margin-right: 40px;
       margin-top: 20px;
       text-align: justify;
       background-color: transparent;
-      color-scheme: rgb;
+    
 
 }
 .body{
       text-align: center;
-      margin-top: 30px;
       background-color: #142f32;
-      width: 100%;
-      margin: 30px
+      padding: 30px;
+      margin-inline: 59px;
+      color: white;
+      font-family: "Manrope" sans-serif;
+      
+    
 
 }
-
+.body-main-heading{
+  background-color: transparent;
+}
+.line-main-heading{
+  background-color: transparent;
+  
+}
+.middle-cards{
+  padding: 30px;
+  background-color: #142f32;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.middle-card1{
+   box-shadow: 0 0.4px 1px rgba(1,1,1,1.9);
+   height: 30vh;
+   width: 27%;
+   border-radius: 20px;
+   padding: 10px;
+   background-color: #1a3f43;
+   justify-content: space-between;
+   margin-inline: 10px;
+   margin-block: 10px;
+   color: white;
+   
+   
+}
+.setting{
+  font-size:xx-large;
+  background-color: transparent;
+}
+.arrow{
+  font-size: xx-large;
+  background-color: transparent;
+}
+.detail-content{
+  background-color: transparent;
+  color: white;
+  text-align: justify;
+ 
+  
+  
+}
+.detail-title{
+  background-color: transparent;
+  text-align: justify;
+  margin-top: 40px;
+}
+.detail-desc{
+  background-color: transparent;
+  text-align: justify;
+  font-size: small;
+  margin-top: 15px;
+  
+}
+.cards-sybmols{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
 
