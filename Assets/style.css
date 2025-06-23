@@ -242,6 +242,10 @@
   justify-content: center;
   
 }
+.middle-cards :hover{
+  background-color:  #142f32
+}
+
 .middle-card1{
    box-shadow: 0 0.4px 1px rgba(1,1,1,1.9);
    height: 30vh;
@@ -253,9 +257,11 @@
    margin-inline: 10px;
    margin-block: 10px;
    color: white;
+   cursor: pointer;
    
    
 }
+
 .setting{
   font-size:xx-large;
   background-color: transparent;
@@ -288,5 +294,201 @@
   display: flex;
   justify-content: space-between;
   background-color: transparent;
+}
+
+  /**Next Section Benefits of systems */
+
+.Benefits-section{
+  padding: 15px;
+  justify-content: end;
+  background-color: white;
+  margin-inline: 59px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+
+
+}
+.Benefits-section-content{
+  padding: 50px;
+  margin-top: 70px;
+  margin-right: 80px;
+  padding: 30px;
+  background-color: transparent;
+  margin-bottom: 40px;
+ 
+}
+.Benefits-section-contenti-heading {
+  background-color: transparent;
+}
+.Benefits-section-contenti-content{
+  background-color: transparent;
+  margin-top: 40px;
+  color: #777c90;
+}
+.Benefits-section-small-h{
+  background-color: transparent;
+  margin-top:30px;
+}
+.Benefits-section-cart{
+  padding: 50px;
+  margin-left: 60px;
+  margin-top: 100px;
+  background-color: #d0d1d5fb;
+  border-radius: 20px;
+  width: 60vh;
+  height:  70vh;
+
+}
+.Benefits-section-innercart{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  line-height: 5%;
+  margin: 30px;
+ 
+}
+
+.total-projects{
+ 
+  background-color: white;
+  color: #777c90;
+  font-family: "<Manrope" sans-serif;
+  font-size: medium;
+  margin:20px;
+  font-family: "Manrope" sans-serif;
+  
+}
+.highlights3{
+  font-size: large;
+  background-color: transparent;
+  color: green;
+}
+
+.separate-line{
+  border-top: 2px solid #d0d1d5fb;
+  margin: 10px;
+}
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.label {
+  width: 80px; /* fix width to keep alignment */
+  color: #555;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #87cefa; /* sky blue */
+  border-radius: 5px;
+}
+
+.percentage {
+  width: 40px;
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+}
+.Benefits-section-contents-lines{
+  background-color: transparent;
+  color: #777c90;
+  font-family: sans-serif;
+
+}
+.body-tailored{
+  background-color: black;
+  padding: 50px;
+  color:  #ccc;
+  text-align: center;
+  margin-inline: 59px;
+  font-family: sans-serif;
+
+ 
+ 
+}
+.cards-tailored{
+  padding: 20px;
+  display: flex;
+  background-color: transparent;
+  margin-inline: 50px;
+  
+}
+.starter{
+  padding: 30px;
+  background-color: #29292b;
+  border-radius: 10px;
+  width: 33%;
+  text-align: justify;
+  margin: 57px;
+}
+.stated-btn{
+  width: 100%;
+  align-content: center;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-color: white;
+  cursor: pointer;
+  
+
+}
+.stated-btn:hover{
+  background-color: #1a3f43;
+}
+.features-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  background-color: transparent;
+}
+
+.features-divider::before,
+.features-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #777; /* Customize line color */
+}
+
+.features-divider:not(:empty)::before {
+  margin-right: 10px;
+}
+
+.features-divider:not(:empty)::after {
+  margin-left: 10px;
+}
+
+.features-divider span {
+  color: #ccc; 
+  
+}
+.feature-content{
+  padding: 15px;
+  background-color: transparent;
+  line-height: 40px;
+}
+.professional-cart{
+  background-color: #1a3f43;
+  padding: 30px;
+  margin-left: 130px;
+   margin-right: 145px;
+   border-radius: 10px;
 }
 
