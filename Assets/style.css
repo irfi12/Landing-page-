@@ -464,7 +464,7 @@
 .features-divider::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #777; /* Customize line color */
+  border-bottom: 1px solid #777; 
 }
 
 .features-divider:not(:empty)::before {
@@ -491,4 +491,128 @@
    margin-right: 145px;
    border-radius: 10px;
 }
+.second-last-portion{
+  background-color: white;
+  padding: 50px;
+  margin-inline: 59px;
+}
+.second-last-portion-content{
+  background-color: transparent;
+}
+.work-btn{
+   background-color: rgb(215, 240, 175);
+            margin-top: 30px;
+            font-size: large;
+            border-radius: 50px;
+            padding: 10px;
+            cursor: pointer;
+            margin-left: 50px;
+            font-size: medium;
+          
 
+}
+.second-last-portion{
+  display: flex;
+}
+.second-last{
+  padding: 50px;
+  background-color: #1a3f43;
+  margin-inline: 59px;
+  text-align: center;
+
+}
+.Footer{
+  background-color: black;
+  color: white;
+  margin-inline: 59px;
+  padding: 60px;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+  background-color: transparent;
+}
+
+.footer-col {
+  flex: 1 1 180px;
+  min-width: 180px;
+  background-color: transparent;
+}
+
+.footer-col h3 {
+  color: #fff;
+  margin-bottom: 10px;
+   background-color: transparent;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+   background-color: transparent;
+}
+
+.footer-col ul li {
+  margin: 6px 0;
+   background-color: transparent;
+}
+
+.footer-col p {
+  margin: 6px 0;
+   background-color: transparent;
+}
+.social-icons a {
+  margin-right: 10px;
+  background-color: black;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.footer-links a {
+  margin-left: 15px;
+  color: #ccc;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-col-brand{
+  display: flex;
+}
+.logo-footer{
+  display: flex;
+  background-color: transparent;
+}
+.footer-logo-heading{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.social-icons{
+  background-color: transparent;
+  margin: 5px;
+}
+.footer-links{
+  background-color: transparent;
+}
