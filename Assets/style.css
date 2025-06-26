@@ -1,10 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: #777c90;
   font-family: "Manrope", sans-serif;
 
 }
+
 .Nav-Bar {
   display: flex;
   flex-wrap: wrap;
@@ -63,9 +63,7 @@
   background-color: white;
   padding: 40px 20px;
   height: 50px 50px;
-  margin-left: 60px;
-  margin-right: 60px;   
-  background-color: #d4d6df;
+  background-color:#d4d6df;
 }
 .main-heading {
   background-color: transparent;
@@ -220,7 +218,6 @@
       text-align: center;
       background-color: #142f32;
       padding: 30px;
-      margin-inline: 59px;
       color: white;
       font-family: "Manrope" sans-serif;
       
@@ -415,7 +412,6 @@
   padding: 50px;
   color:  #ccc;
   text-align: center;
-  margin-inline: 59px;
   font-family: sans-serif;
 
  
@@ -494,7 +490,6 @@
 .second-last-portion{
   background-color: white;
   padding: 50px;
-  margin-inline: 59px;
 }
 .second-last-portion-content{
   background-color: transparent;
@@ -517,14 +512,12 @@
 .second-last{
   padding: 50px;
   background-color: #1a3f43;
-  margin-inline: 59px;
   text-align: center;
 
 }
 .Footer{
   background-color: black;
   color: white;
-  margin-inline: 59px;
   padding: 60px;
 }
 .footer-content {
@@ -615,4 +608,163 @@
 }
 .footer-links{
   background-color: transparent;
+}
+
+/**Responsive Portion */
+
+@media (max-width: 768px) {
+  }
+  .Nav-Bar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-inline: 20px;
+    padding: 15px;
+  }
+
+  .Nav-Bar ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  .professional-cart{
+    width: 100%;
+  }
+
+  .Nav-Bar ul li {
+    margin: 10px 0;
+  }
+
+  .signup-btn {
+    margin-left: 0;
+    width: 30%;
+    margin-top: 10px;
+  }
+
+
+
+  .Hero-section {
+    padding: 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    gap: 10%;
+    
+  }
+  .card-data{
+    width: 100%;
+
+  }
+  .card2{
+    width: 100%;
+  }
+
+  .image {
+    width: 90%;
+    height: 80%;
+  }
+
+  .middle-cards {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .middle-card1 {
+    width: 100%;
+    height: 30%;
+  }
+
+  .Benefits-section {
+    flex-direction: column;
+    margin-inline: 20px;
+  }
+
+  .Benefits-section-cart {
+    width: 120%;
+    margin-left: 0;
+  }
+
+  .Benefits-section-content {
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .cards-tailored {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .starter {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .professional-cart {
+    margin: 20px;
+  }
+
+  .second-last-portion {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .second-last-portion-content h1 {
+    font-size: 24px;
+  }
+
+  .Footer {
+    padding: 30px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-col {
+    min-width: unset;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* extra small devices(PHONES < 480px) */
+@media (max-width: 480px) {
+  .main-heading,
+  .body-main-heading,
+  .Benefits-section-contenti-heading {
+    font-size: 20px;
+  }
+  .Benefits-section-cart{
+    height: 80%;
+  }
+
+  .get-started,
+  .try-demo,
+  .work-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .Benefits-section-content{
+    padding: 20px;
+    
+  }
+
+  .Logo_Name {
+    font-size: 18px;
+  }
+
+  .footer-col h3 {
+    font-size: 16px;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 5px 0;
+  }
 }
